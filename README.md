@@ -63,10 +63,10 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 #### Launching the App
 
-- [ ] Navigate to the root of the project with your command line
-- [ ] Run `npm install` to download the dependencies listed in the `package.json` file
-- [ ] Run `npm start` to compile the project and serve it
-- [ ] Navigate Chrome to the URL indicated in the output of the `npm start` command
+- [x] Navigate to the root of the project with your command line
+- [x] Run `npm install` to download the dependencies listed in the `package.json` file
+- [x] Run `npm start` to compile the project and serve it
+- [x] Navigate Chrome to the URL indicated in the output of the `npm start` command
 
 ### Task 2: Project Requirements
 
