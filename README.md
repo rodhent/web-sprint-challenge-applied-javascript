@@ -36,7 +36,7 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 3. What is an event listener?
 
-- Even Listener is a function that waits for an event to occur.
+- Event Listener is a function that waits for an event to occur.
 
 4. Why would we convert a NodeList into an Array?
 
