@@ -28,6 +28,8 @@ function Header(obj) {
   temperature.classList.add("temperature");
 
   header.appendChild(date);
+  header.appendChild(title);
+  header.appendChild(temperature);
 
   return header;
 }
