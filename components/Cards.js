@@ -26,7 +26,7 @@ const parentCard = document.querySelector(".cards-container");
 axios
   .get("https://lambda-times-api.herokuapp.com/articles")
   .then((response) => {
-    console.log("card esponse", response);
+    console.log("card response", response);
     console.log("articles", response.data.articles);
 
     let articles = Object.values(response.data.articles);
@@ -67,6 +67,10 @@ const cardComp = (object) => {
   authorContainer.appendChild(imgContainer);
   imgContainer.appendChild(img);
   authorContainer.appendChild(authorName);
+
+  headline.addEventListener("click", (event) => {
+    console.log(headline.textContent);
+  });
 
   return newCard;
 };
